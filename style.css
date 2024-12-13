@@ -1,0 +1,25 @@
+/* Font Awesome basic styles */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('path-to-fontawesome-webfont.eot');
+    src: url('path-to-fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('path-to-fontawesome-webfont.woff2') format('woff2'),
+         url('path-to-fontawesome-webfont.woff') format('woff'),
+         url('path-to-fontawesome-webfont.ttf') format('truetype'),
+         url('path-to-fontawesome-webfont.svg#fontawesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-decoration: inherit;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-home:before {
+    content: "\f015"; /* Unicode for the home icon */
+}

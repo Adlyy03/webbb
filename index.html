@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>adlira</title>
+  <script src="script.js"></script>
+  <style>
+    /* Font Awesome basic styles */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('path-to-fontawesome-webfont.eot');
+    src: url('path-to-fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('path-to-fontawesome-webfont.woff2') format('woff2'),
+         url('path-to-fontawesome-webfont.woff') format('woff'),
+         url('path-to-fontawesome-webfont.ttf') format('truetype'),
+         url('path-to-fontawesome-webfont.svg#fontawesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-decoration: inherit;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-home:before {
+    content: "\f015"; /* Unicode for the home icon */
+}
+
+  </style>
+</head>
+<style>
+
+</style>
+<body class="bg-gray-100">
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="flex items-center">
+        <img src="logo.png" alt="Logo" class="h-12 w-auto"/>
+      </div>
+      <nav class="flex space-x-4">
+        <a class="text-gray-700 hover:text-green-600" href="indexx.html">Beranda</a>
+        <a class="text-gray-700 hover:text-green-600" href="#">Keranjang</a>
+        <a class="text-gray-700 hover:text-green-600" href="#">Kontak</a>
+      </nav>
+      <div class="relative">
+        <i class="fas fa-search absolute left-3 top-3 text-gray-500"></i>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto py-6 px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Start of Product Cards -->
+      <div class="bg-white shadow rounded-lg p-4">
+        <img alt="aglonema" class="w-full h-48 object-cover rounded-t-lg" height="200" src="aglonema.jpg" width="200"/>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold text-gray-800">Tanaman Aglonema</h2>
+          <ul class="text-sm text-gray-600 mb-4">
+            <li>30-60 cm</li>
+            <li>full sun</li>
+            <li>2x sehari</li>
+            <li>Tanaman araceae</li>
+          </ul>
+          <p class="text-red-600 line-through">Rp 100.000</p>
+          <p class="text-green-600 text-xl font-bold">Rp 85.000</p>
+          <div class="flex items-center mt-2">
+            <div class="flex text-gray-400">
+            </div>
+          </div>
+          <div class="flex justify-between items-center mt-4">
+            <!-- Button for Detail wrapped in an <a> tag with href -->
+            <a href="https://en.wikipedia.org/wiki/Aglaonema" class="text-gray-600 hover:text-green-600">
+              <button>
+                <i class="fas fa-share"></i> Detail
+              </button>
+            </a>
+            
+            <!-- Button for Beli wrapped in an <a> tag with href -->
+              <a href="https://wa.me/62895321217645?text=saya ingin membeli tanaman aglonema">
+                <button class="bg-green-600 text-white py-2 px-4 rounded-full">
+                  BELI
+                </button>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Product Card -->
+      <div class="bg-white shadow rounded-lg p-4">
+        <img alt="aunthurium" class="w-full h-48 object-cover rounded-t-lg" height="200" src="aunthurium.jpg" width="200"/>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold text-gray-800">Tanaman Aunthurium</h2>
+          <ul class="text-sm text-gray-600 mb-4">
+            <li>30-90 cm</li>
+            <li>full sun</li>
+            <li>2-3 minggu <li>
+            <li>Tanaman araceae</li>
+          </ul>
+          <p class="text-green-600 text-xl font-bold">Rp 50.000</p>
+          <div class="flex items-center mt-2">
+            <div class="flex text-gray-400">
+            </div>
+          </div>
+          <div class="flex justify-between items-center mt-4">
+            <!-- Button for Detail wrapped in an <a> tag with href -->
+            <a href="https://en.wikipedia.org/wiki/Anthurium" class="text-gray-600 hover:text-green-600">
+              <button>
+                <i class="fas fa-share"></i> Detail
+              </button>
+            </a>
+            
+            <!-- Button for Beli wrapped in an <a> tag with href -->
+              <a href="https://wa.me/62895321217645?text=saya ingin membeli tanaman aunthurium">
+                <button class="bg-green-600 text-white py-2 px-4 rounded-full">
+                  BELI
+                </button>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Product Card -->
+      <div class="bg-white shadow rounded-lg p-4">
+        <img alt="philodendron" class="w-full h-48 object-cover rounded-t-lg" height="200" src="philodendron.jpg" width="200"/>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold text-gray-800">Tanaman Philodendron</h2>
+          <ul class="text-sm text-gray-600 mb-4">
+            <li>60cm-3m</li>
+            <li>full sun</li>
+            <li>3-4 hari sekali</li>
+            <li>Tanaman araceae</li>
+          </ul>
+          <p class="text-red-600 line-through">Rp 70.000</p>
+          <p class="text-green-600 text-xl font-bold">Rp 35.000</p>
+          <div class="flex items-center mt-2">
+            <div class="flex text-yellow-500">
+            </div>
+          </div>
+          <div class="flex justify-between items-center mt-4">
+            <!-- Button for Detail wrapped in an <a> tag with href -->
+            <a href="https://en.wikipedia.org/wiki/Philodendron" class="text-gray-600 hover:text-green-600">
+              <button>
+                <i class="fas fa-share"></i> Detail
+              </button>
+            </a>
+            
+            <!-- Button for Beli wrapped in an <a> tag with href -->
+              <a href="https://wa.me/62895321217645?text=saya ingin membeli tanaman philodendron">
+                <button class="bg-green-600 text-white py-2 px-4 rounded-full">
+                  BELI
+                </button>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth Product Card -->
+      <div class="bg-white shadow rounded-lg p-4">
+        <img alt="Scindapsus" class="w-full h-48 object-cover rounded-t-lg" height="200" src="Scindapsus.jpg" width="200"/>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold text-gray-800">Tanaman Scindapsus</h2>
+          <ul class="text-sm text-gray-600 mb-4">
+            <li>15-30 cm</li>
+            <li>full sun</li>
+            <li>5-7 sehari sekali</li>
+            <li>Tanaman araceae</li>
+          </ul>
+          <p class="text-red-600 line-through">Rp 50.000</p>
+          <p class="text-green-600 text-xl font-bold">Rp 20.000</p>
+          <div class="flex items-center mt-2">
+            <div class="flex text-gray-400">
+            </div>
+          </div>
+          <div class="flex justify-between items-center mt-4">
+            <!-- Button for Detail wrapped in an <a> tag with href -->
+            <a href="https://en.wikipedia.org/wiki/Scindapsus" class="text-gray-600 hover:text-green-600">
+              <button>
+                <i class="fas fa-share"></i> Detail
+              </button>
+            </a>
+            
+            <!-- Button for Beli wrapped in an <a> tag with href -->
+              <a href="https://wa.me/62895321217645?text=saya ingin membeli tanaman scindapsus">
+                <button class="bg-green-600 text-white py-2 px-4 rounded-full">
+                  BELI
+                </button>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white shadow rounded-lg p-4">
+        <img alt="bonsai" class="w-full h-48 object-cover rounded-t-lg" height="200" src="bonsai.jpg" width="200"/>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold text-gray-800">Tanaman Bonsai</h2>
+          <ul class="text-sm text-gray-600 mb-4">
+            <li>10-15cm</li>
+            <li>full sun</li>
+            <li>1-2 hari sekali</li>
+            <li>Tanaman hias</li>
+          </ul>
+          <p class="text-green-600 text-xl font-bold">Rp 45.000</p>
+          <div class="flex items-center mt-2">
+            <div class="flex text-yellow-500">
+            </div>
+          </div>
+          <div class="flex justify-between items-center mt-4">
+            <!-- Button for Detail wrapped in an <a> tag with href -->
+            <a href="https://en.wikipedia.org/wiki/Bonsai" class="text-gray-600 hover:text-green-600">
+              <button>
+                <i class="fas fa-share"></i> Detail
+              </button>
+            </a>
+            
+            <!-- Button for Beli wrapped in an <a> tag with href -->
+              <a href="https://wa.me/62895321217645?text=saya ingin membeli tanaman bonsai">
+                <button class="bg-green-600 text-white py-2 px-4 rounded-full">
+                  BELI
+                </button>
+              </a>              
+          </div>
+        </div>
+      </div>
+      <div class="bg-white shadow rounded-lg p-4">
+        <img alt="widow" class="w-full h-48 object-cover rounded-t-lg" height="200" src="widow.jpg" width="200"/>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold text-gray-800">Tanaman Monstera adansonii</h2>
+          <ul class="text-sm text-gray-600 mb-4">
+            <li>2-3m</li>
+            <li>full sun</li>
+            <li>2-3 hari sekali</li>
+            <li>Tanaman araceae</li>
+          </ul>
+          <p class="text-green-600 text-xl font-bold">Rp 30.000</p>
+          <div class="flex items-center mt-2">
+            </div>
+            <span class="ml-2 text-gray-600">(1)</span>
+          </div>
+          <div class="flex justify-between items-center mt-4">
+            <!-- Button for Detail wrapped in an <a> tag with href -->
+            <a href="https://id.wikipedia.org/wiki/Monstera_adansonii" class="text-gray-600 hover:text-green-600">
+              <button>
+                <i class="fas fa-share"></i> Detail
+              </button>
+            </a>
+            
+            <!-- Button for Beli wrapped in an <a> tag with href -->
+              <a href="https://wa.me/62895321217645?text=Saya ingin membeli tanaman Monstera adansonii">
+                <button class="bg-green-600 text-white py-2 px-4 rounded-full">
+                  BELI
+                </button>
+              </a>              
+          </div>
+        </div>
+      </div>
+      <!-- End of Product Cards -->
+    </div>
+  </main>
+ 
+</body>
+</html>
